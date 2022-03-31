@@ -24,16 +24,15 @@ struct ContentView: View {
                 Button(action: {
                     changeOpacity()
                 }, label: {
-                    if opacityRed >= 1.0 || opacityYellow >= 1.0 || opacityGreen >= 1.0 {
+                    if opacityRed == 1.0 || opacityYellow == 1.0 || opacityGreen == 1.0 {
                         Text ("NEXT")
-                            .foregroundColor(.white)
                     } else {
                         Text("Start")
-                            .foregroundColor(.white)
                     }
                 })
                     .frame(width: 140, height: 50)
                     .font(.system(size: 30, weight: .bold, design: .default))
+                    .foregroundColor(.white)
                     .overlay(RoundedRectangle(cornerRadius: 15).stroke(Color.white, lineWidth: 4))
                     .background(Color.blue).cornerRadius(15)
             }

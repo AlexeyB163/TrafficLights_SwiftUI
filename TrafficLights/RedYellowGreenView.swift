@@ -19,13 +19,13 @@ struct RedYellowGreenView: View {
         setCircle()
     }
     
+    
     var body: some View {
         VStack {
             redCircle
             yellowCircle
             greenCircle
         }
-      
     }
     
     private func setCircle() -> some View{
