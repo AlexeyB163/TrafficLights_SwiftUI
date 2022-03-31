@@ -11,6 +11,7 @@
 		CED74B7327F4E5B300EA5F72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74B7227F4E5B300EA5F72 /* ContentView.swift */; };
 		CED74B7527F4E5B600EA5F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74B7427F4E5B600EA5F72 /* Assets.xcassets */; };
 		CED74B7827F4E5B600EA5F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74B7727F4E5B600EA5F72 /* Preview Assets.xcassets */; };
+		CED74B7F27F4E66100EA5F72 /* RedYellowGreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74B7E27F4E66100EA5F72 /* RedYellowGreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CED74B7227F4E5B300EA5F72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED74B7427F4E5B600EA5F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED74B7727F4E5B600EA5F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED74B7E27F4E66100EA5F72 /* RedYellowGreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedYellowGreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				CED74B7027F4E5B300EA5F72 /* TrafficLightsApp.swift */,
+				CED74B7E27F4E66100EA5F72 /* RedYellowGreenView.swift */,
 				CED74B7227F4E5B300EA5F72 /* ContentView.swift */,
 				CED74B7427F4E5B600EA5F72 /* Assets.xcassets */,
 				CED74B7627F4E5B600EA5F72 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				CED74B7327F4E5B300EA5F72 /* ContentView.swift in Sources */,
 				CED74B7127F4E5B300EA5F72 /* TrafficLightsApp.swift in Sources */,
+				CED74B7F27F4E66100EA5F72 /* RedYellowGreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
